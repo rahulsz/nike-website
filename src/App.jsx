@@ -5,7 +5,7 @@ import{
   SuperQuality,
   Services,
   SpecialOffers,
-  CustomerReviews,
+
   Subscribe,
   Footer
 } from "./sections"
@@ -31,9 +31,7 @@ const App = () => {
       <section className="padding">
        <SpecialOffers/>
       </section>
-      <section className="bg-pale-blue padding">
-       <CustomerReviews/>
-      </section>
+
       <section className="padding-x sm:py-32 py-16 w-full">
        <Subscribe/>
       </section>
